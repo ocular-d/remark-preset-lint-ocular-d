@@ -1,4 +1,5 @@
 <!-- PROJECT LOGO -->
+
 <br />
 <p align="center">
   <a href="https://github.com/ocular-d/demo-docs">
@@ -20,6 +21,7 @@
 </p>
 
 <!-- TABLE OF CONTENTS -->
+
 ## Table of Contents
 
 - [About the Project](#about)
