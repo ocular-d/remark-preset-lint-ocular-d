@@ -1,15 +1,12 @@
 /*
- * Copyright (c) 2018-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (c) 2018-present Sven Greb <code@svengreb.de>
- *
- * Project:    Arctic Ice Studio remark-lint Preset
+ * Based on Arctic Ice Studio remark-lint Preset
  * Repository: https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio
  * License:    MIT
  */
 
 /**
  * @file Official remark-lint core rules for list document nodes.
- * @author Arctic Ice Studio <development@arcticicestudio.com>
+ * @author Arctic Ice Studio <development@arcticicestudio.com> and ocular-d
  * @see {@link https://github.com/remarkjs/remark-lint/blob/master/doc/rules.md#list-of-rules remark-lint Core Rules}
  */
 
@@ -18,7 +15,7 @@
  *
  * @since 0.1.0
  * @see {@link https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-checkbox-character-style checkbox-character-style}
- * @see {@link https://arcticicestudio.github.io/styleguide-markdown/rules/lists.html#checkbox-character-style Style Guide: "Lists - Checkbox Character Style"}
+ * @see {@link https://ocular-d.github.io/styleguide-markdown/lists.html#checkbox-character-style Style Guide: "Lists - Checkbox Character Style"}
  */
 const checkboxCharacterStyle = require("remark-lint-checkbox-character-style");
 /**
@@ -33,7 +30,7 @@ const checkboxContentIndent = require("remark-lint-checkbox-content-indent");
  *
  * @since 0.1.0
  * @see {@link https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-list-item-bullet-indent list-item-bullet-indent}
- * @see {@link https://arcticicestudio.github.io/styleguide-markdown/rules/lists.html#no-content-before Style Guide: "Lists - No Content Before"}
+ * @see {@link https://ocular-d.github.io/styleguide-markdown/lists.html#no-content-before Style Guide: "Lists - No Content Before"}
  */
 const listItemBulletIndent = require("remark-lint-list-item-bullet-indent");
 /**
@@ -41,7 +38,7 @@ const listItemBulletIndent = require("remark-lint-list-item-bullet-indent");
  *
  * @since 0.1.0
  * @see {@link https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-list-item-content-indent list-item-content-indent}
- * @see {@link https://arcticicestudio.github.io/styleguide-markdown/rules/lists.html#continuous-indentation Style Guide: "Lists - Continuous Indentation"}
+ * @see {@link https://ocular-d.github.io/styleguide-markdown/lists.html#continuous-indentation Style Guide: "Lists - Continuous Indentation"}
  */
 const listItemContentIndent = require("remark-lint-list-item-content-indent");
 /**
@@ -49,7 +46,7 @@ const listItemContentIndent = require("remark-lint-list-item-content-indent");
  *
  * @since 0.1.0
  * @see {@link https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-list-item-indent list-item-indent}
- * @see {@link https://arcticicestudio.github.io/styleguide-markdown/rules/lists.html#continuous-indentation Style Guide: "Lists - Continuous Indentation"}
+ * @see {@link https://ocular-d.github.io/styleguide-markdown/lists.html#continuous-indentation Style Guide: "Lists - Continuous Indentation"}
  */
 const listItemIndent = require("remark-lint-list-item-indent");
 /**
@@ -57,7 +54,7 @@ const listItemIndent = require("remark-lint-list-item-indent");
  *
  * @since 0.1.0
  * @see {@link https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-list-item-spacing list-item-spacing}
- * @see {@link https://arcticicestudio.github.io/styleguide-markdown/rules/lists.html#empty-lines Style Guide: "Lists - Empty Lines"}
+ * @see {@link https://ocular-d.github.io/styleguide-markdown/lists.html#empty-lines Style Guide: "Lists - Empty Lines"}
  */
 const listItemSpacing = require("remark-lint-list-item-spacing");
 /**
@@ -65,7 +62,7 @@ const listItemSpacing = require("remark-lint-list-item-spacing");
  *
  * @since 0.1.0
  * @see {@link https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-ordered-list-marker-style ordered-list-marker-style}
- * @see {@link https://arcticicestudio.github.io/styleguide-markdown/rules/lists.html#ordered-marker Style Guide: "Lists - Ordered Marker"}
+ * @see {@link https://ocular-d.github.io/styleguide-markdown/lists.html#ordered-marker Style Guide: "Lists - Ordered Marker"}
  */
 const orderedListMarkerStyle = require("remark-lint-ordered-list-marker-style");
 /**
@@ -73,7 +70,7 @@ const orderedListMarkerStyle = require("remark-lint-ordered-list-marker-style");
  *
  * @since 0.1.0
  * @see {@link https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-ordered-list-marker-value ordered-list-marker-value}
- * @see {@link https://arcticicestudio.github.io/styleguide-markdown/rules/lists.html#ordered-marker Style Guide: "Lists - Ordered Marker"}
+ * @see {@link https://ocular-d.github.io/styleguide-markdown/lists.html#ordered-marker Style Guide: "Lists - Ordered Marker"}
  */
 const orderedListMarkerValue = require("remark-lint-ordered-list-marker-value");
 /**
@@ -81,7 +78,7 @@ const orderedListMarkerValue = require("remark-lint-ordered-list-marker-value");
  *
  * @since 0.1.0
  * @see {@link https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-unordered-list-marker-style unordered-list-marker-style}
- * @see {@link https://arcticicestudio.github.io/styleguide-markdown/rules/lists.html#unordered-marker Style Guide: "Lists - Unordered Marker"}
+ * @see {@link https://ocular-d.github.io/styleguide-markdown/lists.html#unordered-marker Style Guide: "Lists - Unordered Marker"}
  */
 const unorderedListMarkerStyle = require("remark-lint-unordered-list-marker-style");
 
