@@ -1,15 +1,12 @@
 /*
- * Copyright (c) 2018-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (c) 2018-present Sven Greb <code@svengreb.de>
- *
- * Project:    Arctic Ice Studio remark-lint Preset
+ * Based on Arctic Ice Studio remark-lint Preset
  * Repository: https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio
  * License:    MIT
  */
 
 /**
  * @file Official remark-lint core rules for naming conventions.
- * @author Arctic Ice Studio <development@arcticicestudio.com>
+ * @author Arctic Ice Studio <development@arcticicestudio.com> and ocular-d
  * @see {@link https://github.com/remarkjs/remark-lint/blob/master/doc/rules.md#list-of-rules remark-lint Core Rules}
  */
 
@@ -18,7 +15,7 @@
  *
  * @since 0.1.0
  * @see {@link https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-file-extension file-extension}
- * @see {@link https://arcticicestudio.github.io/styleguide-markdown/rules/naming-conventions.html#file-extension Style Guide: "Naming Conventions - File Extension"}
+ * @see {@link https://ocular-d.github.io/styleguide-markdown/naming-conventions.html#file-extension Style Guide: "Naming Conventions - File Extension"}
  */
 const fileExtension = require("remark-lint-file-extension");
 /**
@@ -47,7 +44,7 @@ const noFileNameIrregularCharacters = require("remark-lint-no-file-name-irregula
  *
  * @since 0.1.0
  * @see {@link https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-file-name-mixed-case no-file-name-mixed-case}
- * @see {@link https://arcticicestudio.github.io/styleguide-markdown/rules/naming-conventions.html#file-naming Style Guide: "Naming Conventions - File Naming"}
+ * @see {@link https://ocular-d.github.io/styleguide-markdown/naming-conventions.html#file-naming Style Guide: "Naming Conventions - File Naming"}
  */
 const noFileNameMixedCase = require("remark-lint-no-file-name-mixed-case");
 /**
