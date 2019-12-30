@@ -1,15 +1,12 @@
 /*
- * Copyright (c) 2018-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (c) 2018-present Sven Greb <code@svengreb.de>
- *
- * Project:    Arctic Ice Studio remark-lint Preset
+ * Based on Arctic Ice Studio remark-lint Preset
  * Repository: https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio
  * License:    MIT
  */
 
 /**
  * @file Official remark-lint core rules for heading document nodes.
- * @author Arctic Ice Studio <development@arcticicestudio.com>
+ * @author Arctic Ice Studio <development@arcticicestudio.com> and ocular-d
  * @see {@link https://github.com/remarkjs/remark-lint/blob/master/doc/rules.md#list-of-rules remark-lint Core Rules}
  */
 
@@ -32,7 +29,7 @@ const headingIncrement = require("remark-lint-heading-increment");
  *
  * @since 0.1.0
  * @see {@link https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-heading-style heading-style}
- * @see {@link https://arcticicestudio.github.io/styleguide-markdown/rules/headings.html#atx-style Style Guide: "Headings - ATX Style"}
+ * @see {@link https://ocular-d.github.io/styleguide-markdown/headings.html#atx-style Style Guide: "Headings - ATX Style"}
  */
 const headingStyle = require("remark-lint-heading-style");
 /**
@@ -40,7 +37,7 @@ const headingStyle = require("remark-lint-heading-style");
  *
  * @since 0.1.0
  * @see {@link https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-maximum-heading-length maximum-heading-length}
- * @see {@link https://arcticicestudio.github.io/styleguide-markdown/rules/headings.html#length Style Guide: "Headings - Length"}
+ * @see {@link https://ocular-d.github.io/styleguide-markdown/headings.html#length Style Guide: "Headings - Length"}
  */
 const maximumHeadingLength = require("remark-lint-maximum-heading-length");
 /**
@@ -48,7 +45,7 @@ const maximumHeadingLength = require("remark-lint-maximum-heading-length");
  *
  * @since 0.1.0
  * @see {@link https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-duplicate-headings no-duplicate-headings}
- * @see {@link https://arcticicestudio.github.io/styleguide-markdown/rules/headings.html#no-duplicate Style Guide: "Headings - No Duplicate"}
+ * @see {@link https://ocular-d.github.io/styleguide-markdown/headings.html#no-duplicate Style Guide: "Headings - No Duplicate"}
  */
 const noDuplicateHeadings = require("remark-lint-no-duplicate-headings");
 /**
@@ -56,7 +53,7 @@ const noDuplicateHeadings = require("remark-lint-no-duplicate-headings");
  *
  * @since 0.1.0
  * @see {@link https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-duplicate-headings-in-section no-duplicate-headings-in-section}
- * @see {@link https://arcticicestudio.github.io/styleguide-markdown/rules/headings.html#no-duplicate Style Guide: "Headings - No Duplicate"}
+ * @see {@link https://ocular-d.github.io/styleguide-markdown/headings.html#no-duplicate Style Guide: "Headings - No Duplicate"}
  */
 const noDuplicateHeadingsInSection = require("remark-lint-no-duplicate-headings-in-section");
 /**
@@ -64,7 +61,7 @@ const noDuplicateHeadingsInSection = require("remark-lint-no-duplicate-headings-
  *
  * @since 0.1.0
  * @see {@link https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-heading-content-indent no-heading-content-indent}
- * @see {@link https://arcticicestudio.github.io/styleguide-markdown/rules/headings.html#content-spacing Style Guide: "Headings - Content Spacing"}
+ * @see {@link https://ocular-d.github.io/styleguide-markdown/headings.html#content-spacing Style Guide: "Headings - Content Spacing"}
  */
 const noHeadingContentIndent = require("remark-lint-no-heading-content-indent");
 /**
@@ -72,7 +69,7 @@ const noHeadingContentIndent = require("remark-lint-no-heading-content-indent");
  *
  * @since 0.1.0
  * @see {@link https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-heading-indent no-heading-indent}
- * @see {@link https://arcticicestudio.github.io/styleguide-markdown/rules/headings.html#no-content-before Style Guide: "Headings - No Content Before"}
+ * @see {@link https://ocular-d.github.io/styleguide-markdown/headings.html#no-content-before Style Guide: "Headings - No Content Before"}
  */
 const noHeadingIndent = require("remark-lint-no-heading-indent");
 /**
@@ -87,7 +84,7 @@ const noHeadingLikeParagraph = require("remark-lint-no-heading-like-paragraph");
  *
  * @since 0.1.0
  * @see {@link https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-heading-punctuation no-heading-punctuation}
- * @see {@link https://arcticicestudio.github.io/styleguide-markdown/rules/headings.html#punctuation-after-content Style Guide: "Headings - Punctuation After Content"}
+ * @see {@link https://ocular-d.github.io/styleguide-markdown/headings.html#punctuation-after-content Style Guide: "Headings - Punctuation After Content"}
  */
 const noHeadingPunctuation = require("remark-lint-no-heading-punctuation");
 /**
