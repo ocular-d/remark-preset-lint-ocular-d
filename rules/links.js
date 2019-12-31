@@ -1,15 +1,12 @@
 /*
- * Copyright (c) 2018-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (c) 2018-present Sven Greb <code@svengreb.de>
- *
- * Project:    Arctic Ice Studio remark-lint Preset
+ * Based on Arctic Ice Studio remark-lint Preset
  * Repository: https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio
  * License:    MIT
  */
 
 /**
  * @file Official remark-lint core rules for link document nodes.
- * @author Arctic Ice Studio <development@arcticicestudio.com>
+ * @author Arctic Ice Studio <development@arcticicestudio.com> and ocular-d
  * @see {@link https://github.com/remarkjs/remark-lint/blob/master/doc/rules.md#list-of-rules remark-lint Core Rules}
  */
 
@@ -42,7 +39,7 @@ const finalDefinition = require("remark-lint-final-definition");
  *
  * @since 0.1.0
  * @see {@link https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-auto-link-without-protocol no-auto-link-without-protocol}
- * @see {@link https://arcticicestudio.github.io/styleguide-markdown/rules/links.html#autolink-protocol Style Guide: "Links - Autolink Protocol"}
+ * @see {@link https://ocular-d.github.io/styleguide-markdown/links.html#autolinks Style Guide: "Links - Autolink Protocol"}
  */
 const noAutoLinkWithoutProtocol = require("remark-lint-no-auto-link-without-protocol");
 /**
@@ -50,7 +47,7 @@ const noAutoLinkWithoutProtocol = require("remark-lint-no-auto-link-without-prot
  *
  * @since 0.1.0
  * @see {@link https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-duplicate-definitions no-duplicate-definitions}
- * @see {@link https://arcticicestudio.github.io/styleguide-markdown/rules/links.html#unique-ids Style Guide: "Links - Unique IDs"}
+ * @see {@link https://ocular-d.github.io/styleguide-markdown/links.html#unique-ids Style Guide: "Links - Unique IDs"}
  */
 const noDuplicateDefinitions = require("remark-lint-no-duplicate-definitions");
 /**
