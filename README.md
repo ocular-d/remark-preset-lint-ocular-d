@@ -11,7 +11,7 @@
   <p align="center">
     Markdown Style Guide rules as <a href="https://github.com/remarkjs/remark-lint">remark-lint</a> configuration preset.
     <br />
-    <a href="https://github.com/ocular-d/remark-preset-lint-ocular-d"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/ocular-d/remark-preset-lint-ocular-d/blob/master/docs/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/ocular-d/remark-preset-lint-ocular-d/issues">Report Bug</a>
