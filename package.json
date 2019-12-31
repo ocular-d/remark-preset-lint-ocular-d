@@ -111,7 +111,7 @@
     "eslint-config-arcticicestudio-base": "0.1.0",
     "eslint-plugin-import": "2.8.0",
     "remark-cli": "^5.0.0",
-    "vuepress": "^1.2.o",
+    "vuepress": "^1.2.0",
     "remark-html": "^10.0.0",
     "js-yaml": "^3.13.1"
   },
