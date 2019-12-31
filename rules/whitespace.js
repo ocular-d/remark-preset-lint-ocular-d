@@ -1,15 +1,12 @@
 /*
- * Copyright (c) 2018-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (c) 2018-present Sven Greb <code@svengreb.de>
- *
- * Project:    Arctic Ice Studio remark-lint Preset
+ * Based on Arctic Ice Studio remark-lint Preset
  * Repository: https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio
  * License:    MIT
  */
 
 /**
  * @file Official remark-lint core rules for whitespaces.
- * @author Arctic Ice Studio <development@arcticicestudio.com>
+ * @author Arctic Ice Studio <development@arcticicestudio.com> and ocular-f
  * @see {@link https://github.com/remarkjs/remark-lint/blob/master/doc/rules.md#list-of-rules remark-lint Core Rules}
  */
 
@@ -26,7 +23,7 @@ const finalNewline = require("remark-lint-final-newline");
  *
  * @since 0.1.0
  * @see {@link https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-hard-break-spaces hard-break-spaces}
- * @see {@link https://arcticicestudio.github.io/styleguide-markdown/rules/whitespace.html#trailing Style Guide: "Whitespace - Trailing"}
+ * @see {@link https://ocular-d.github.io/styleguide-markdown/whitespace.html#trailing Style Guide: "Whitespace - Trailing"}
  */
 const hardBreakSpaces = require("remark-lint-hard-break-spaces");
 /**
@@ -42,7 +39,7 @@ const linebreakStyle = require("remark-lint-linebreak-style");
  *
  * @since 0.1.0
  * @see {@link https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-maximum-line-length maximum-line-length}
- * @see {@link https://arcticicestudio.github.io/styleguide-markdown/rules/whitespace.html#maximum-line-length Style Guide: "Whitespace - Maximum Line Length"}
+ * @see {@link https://ocular-d.github.io/styleguide-markdown/whitespace.html#maximum-line-length Style Guide: "Whitespace - Maximum Line Length"}
  */
 const maximumLineLength = require("remark-lint-maximum-line-length");
 /**
@@ -58,7 +55,7 @@ const noConsecutiveBlankLines = require("remark-lint-no-consecutive-blank-lines"
  *
  * @since 0.1.0
  * @see {@link https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-missing-blank-lines no-missing-blank-lines}
- * @see {@link https://arcticicestudio.github.io/styleguide-markdown/rules/whitespace.html#before-blocks Style Guide: "Whitespace - Before Blocks"}
+ * @see {@link https://ocular-d.github.io/styleguide-markdown/whitespace.html#before-blocks Style Guide: "Whitespace - Before Blocks"}
  */
 const noMissingBlankLines = require("remark-lint-no-missing-blank-lines");
 /**
@@ -66,7 +63,7 @@ const noMissingBlankLines = require("remark-lint-no-missing-blank-lines");
  *
  * @since 0.1.0
  * @see {@link https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-tabs no-tabs}
- * @see {@link https://arcticicestudio.github.io/styleguide-markdown/rules/whitespace.html#indentation-character Style Guide: "Whitespace - Indentation Character"}
+ * @see {@link https://ocular-d.github.io/styleguide-markdown/whitespace.html#indentation-character Style Guide: "Whitespace - Indentation Character"}
  */
 const noTabs = require("remark-lint-no-tabs");
 
