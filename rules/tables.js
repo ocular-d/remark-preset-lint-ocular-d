@@ -1,15 +1,12 @@
 /*
- * Copyright (c) 2018-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (c) 2018-present Sven Greb <code@svengreb.de>
- *
- * Project:    Arctic Ice Studio remark-lint Preset
+ * Based on Arctic Ice Studio remark-lint Preset
  * Repository: https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio
  * License:    MIT
  */
 
 /**
  * @file Official remark-lint core rules for table document nodes.
- * @author Arctic Ice Studio <development@arcticicestudio.com>
+ * @author Arctic Ice Studio <development@arcticicestudio.com> and ocular-d
  * @see {@link https://github.com/remarkjs/remark-lint/blob/master/doc/rules.md#list-of-rules remark-lint Core Rules}
  */
 
@@ -18,7 +15,7 @@
  *
  * @since 0.1.0
  * @see {@link https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-table-indentation no-table-indentation}
- * @see {@link https://arcticicestudio.github.io/styleguide-markdown/rules/tables.html#no-indentation Style Guide: "Tables - No Indentation"}
+ * @see {@link https://ocular-d.github.io/styleguide-markdown/tables.html#no-indentation Style Guide: "Tables - No Indentation"}
  */
 const noTableIndentation = require("remark-lint-no-table-indentation");
 /**
@@ -26,7 +23,7 @@ const noTableIndentation = require("remark-lint-no-table-indentation");
  *
  * @since 0.1.0
  * @see {@link https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-table-cell-padding table-cell-padding}
- * @see {@link https://arcticicestudio.github.io/styleguide-markdown/rules/tables.html#header-delimiter-row-spacing Style Guide: "Tables - Header Delimiter Row Spacing"}
+ * @see {@link https://ocular-d.github.io/styleguide-markdown/tables.html#header-delimiter-row-spacing Style Guide: "Tables - Header Delimiter Row Spacing"}
  */
 const tableCellPadding = require("remark-lint-table-cell-padding");
 /**
@@ -34,8 +31,8 @@ const tableCellPadding = require("remark-lint-table-cell-padding");
  *
  * @since 0.1.0
  * @see {@link https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-table-pipe-alignment table-pipe-alignment}
- * @see {@link https://arcticicestudio.github.io/styleguide-markdown/rules/tables.html#header-delimiter-row-spacing Style Guide: "Tables - Header Delimiter Row Spacing"}
- * @see {@link https://arcticicestudio.github.io/styleguide-markdown/rules/tables.html#minimum-column-width Style Guide: "Tables - Minimum Column Width"}
+ * @see {@link https://ocular-d.github.io/styleguide-markdown/tables.html#header-delimiter-row-spacing Style Guide: "Tables - Header Delimiter Row Spacing"}
+ * @see {@link https://ocular-d.github.io/styleguide-markdown/tables.html#minimum-column-width Style Guide: "Tables - Minimum Column Width"}
  */
 const tablePipeAlignment = require("remark-lint-table-pipe-alignment");
 /**
@@ -43,7 +40,7 @@ const tablePipeAlignment = require("remark-lint-table-pipe-alignment");
  *
  * @since 0.1.0
  * @see {@link https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-table-pipes table-pipes}
- * @see {@link https://arcticicestudio.github.io/styleguide-markdown/rules/tables.html#alignment Style Guide: "Tables - Alignment"}
+ * @see {@link https://ocular-d.github.io/styleguide-markdown/tables.html#alignment Style Guide: "Tables - Alignment"}
  */
 const tablePipes = require("remark-lint-table-pipes");
 
