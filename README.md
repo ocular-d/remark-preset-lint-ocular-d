@@ -11,7 +11,7 @@
   <p align="center">
     Markdown Style Guide rules as <a href="https://github.com/remarkjs/remark-lint">remark-lint</a> configuration preset.
     <br />
-    <a href="https://github.com/ocular-d/remark-preset-lint-ocular-d/blob/master/docs/README.md"><strong>Explore the docs »</strong></a>
+    <a href="https://ocular-d.github.io/styleguide-markdown/"><strong>Explore the Style Guide »</strong></a>
     <br />
     <br />
     <a href="https://github.com/ocular-d/remark-preset-lint-ocular-d/issues">Report Bug</a>
@@ -42,6 +42,8 @@ We are a community effort, and everybody is most welcome to participate!
 Be it filing bugs, formulating enhancements, creating pull requests, or any other means of contribution, we encourage contributions from everyone.
 
 ## License
+
+- [MIT](https://github.com/ocular-d/remark-preset-lint-ocular-d/blob/master/LICENSE.md "Link to license")
 
 ## Credits
 

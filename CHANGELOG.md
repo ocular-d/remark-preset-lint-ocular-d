@@ -2,9 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased]
+## [0.0.2] - 2020-01-xx
 
-## [0.0.1] - 2019-xx-xx
+- Add license information to README
+- Update license (copyright info)
+- Add link to Markdown Style Guide to README
+
+## [0.0.1] - 2019-12-31
 
 ### Added
 

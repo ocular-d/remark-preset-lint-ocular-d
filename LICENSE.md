@@ -2,8 +2,9 @@ MIT License (MIT)
 
 <!-- lint disable no-auto-link-without-protocol -->
 
-Copyright (C) 2018-present Arctic Ice Studio <development@arcticicestudio.com> (http://arcticicestudio.com)  
-Copyright (C) 2018-present Sven Greb <code@svengreb.de> (http://svengreb.de)
+Copyright (C) 2018-2019 Arctic Ice Studio <development@arcticicestudio.com> (http://arcticicestudio.com)
+Copyright (C) 2018-2019 Sven Greb <code@svengreb.de> (http://svengreb.de)
+Copyright (C) 2020-present ocular-d
 
 <!-- lint enable no-auto-link-without-protocol -->
 
