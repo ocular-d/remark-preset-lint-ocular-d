@@ -1,7 +1,7 @@
 {
   "name": "remark-preset-lint-ocular-d",
   "title": "ocular-d remark-lint preset",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ocular-d Markdown Style Guide rules as remark-lint configuration preset.",
   "author": {
     "name": "ocular-d",
@@ -51,7 +51,6 @@
     "remark-lint-fenced-code-flag": "^1.0.3",
     "remark-lint-fenced-code-marker": "^1.0.3",
     "remark-lint-file-extension": "^1.0.3",
-    "remark-lint-final-definition": "^1.0.3",
     "remark-lint-final-newline": "^1.0.3",
     "remark-lint-first-heading-level": "^1.1.4",
     "remark-lint-hard-break-spaces": "^1.0.4",
