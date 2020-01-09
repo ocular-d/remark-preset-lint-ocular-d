@@ -25,6 +25,7 @@
 ## Table of Contents
 
 - [About the Project](#about)
+- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 - [Credits](#credits)
@@ -34,6 +35,18 @@
 Inspired and based on [Arctic Ice Studio Remark-Lint](https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio "Link to page on GitHub")
 
 It is used to showcase *Docs As Code* and *DocOps*.
+
+## Usage
+
+This remark-lint configuration preset can be used by adding it to the plugins within the [remark-lint configuration file](https://github.com/remarkjs/remark-lint#configuring-remark-lint "Link to remark.js docs") of your project.
+
+Add `remark-preset-lint-ocular-d` to the `plugins` array in your `.remarkrc.js` or `.remarkrc` file:
+
+```js
+module.exports = {
+  plugins: ["remark-preset-lint-ocular-d"]
+};
+```
 
 ## Contributing
 
