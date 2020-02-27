@@ -71,6 +71,12 @@ All peer dependencies can also be installed manually by installing the correct v
 npm info "remark-preset-lint-ocular-d@latest" peerDependencies
 ```
 
+Or with Yarn
+
+```sh
+yarn add --peer remark-cli
+```
+
 ## Usage
 
 This remark-lint configuration preset can be used by adding it to the plugins within the [remark-lint configuration file](https://github.com/remarkjs/remark-lint#configuring-remark-lint "Link to remark.js docs") of your project.
