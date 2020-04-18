@@ -1,7 +1,7 @@
 {
   "name": "remark-preset-lint-ocular-d",
   "title": "ocular-d remark-lint preset",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ocular-d Markdown Style Guide rules as remark-lint configuration preset.",
   "author": {
     "name": "ocular-d",
@@ -103,19 +103,17 @@
     "remark-lint-table-cell-padding": "^1.0.1",
     "remark-lint-table-pipe-alignment": "^1.0.1",
     "remark-lint-table-pipes": "^1.0.1",
-    "remark-lint-unordered-list-marker-style": "^1.0.1"
+    "remark-lint-unordered-list-marker-style": "^1.0.1",
+    "remark-cli": "^5.0.0"
   },
   "devDependencies": {
     "del-cli": "1.1.0",
     "eslint": "4.18.2",
     "eslint-config-arcticicestudio-base": "0.1.0",
     "eslint-plugin-import": "2.8.0",
-    "remark-cli": "^5.0.0",
-    "vuepress": "^1.2.o",
+    "js-yaml": "^3.13.1",
+    "npm-check-updates": "^4.0.1",
     "remark-html": "^10.0.0",
-    "js-yaml": "^3.13.1"
-  },
-  "peerDependencies": {
-    "remark-cli": "^5.0.0"
+    "vuepress": "^1.2.0"
   }
 }
