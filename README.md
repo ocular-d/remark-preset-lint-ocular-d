@@ -11,12 +11,12 @@
   <p align="center">
     Markdown Style Guide rules as <a href="https://github.com/remarkjs/remark-lint">remark-lint</a> configuration preset.
     <br />
-    <a href="https://github.com/ocular-d/demo-docs"><strong>Explore the docs »</strong></a>
+    <a href="https://ocular-d.github.io/styleguide-markdown/"><strong>Explore the Style Guide »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/ocular-d/demo-docs/issues">Report Bug</a>
+    <a href="https://github.com/ocular-d/remark-preset-lint-ocular-d/issues">Report Bug</a>
     ·
-    <a href="https://github.com/ocular-d/demo-docs/issues">Request Feature</a>
+    <a href="https://github.com/ocular-d/remark-preset-lint-ocular-d/issues">Request Feature</a>
   </p>
 </p>
 
@@ -25,15 +25,28 @@
 ## Table of Contents
 
 - [About the Project](#about)
+- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 - [Credits](#credits)
 
 ## About
 
-Inspiered and based on https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio/blob/develop/README.md
+Inspired and based on [Arctic Ice Studio Remark-Lint](https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio "Link to page on GitHub")
 
 It is used to showcase *Docs As Code* and *DocOps*.
+
+## Usage
+
+This remark-lint configuration preset can be used by adding it to the plugins within the [remark-lint configuration file](https://github.com/remarkjs/remark-lint#configuring-remark-lint "Link to remark.js docs") of your project.
+
+Add `remark-preset-lint-ocular-d` to the `plugins` array in your `.remarkrc.js` or `.remarkrc` file:
+
+```js
+module.exports = {
+  plugins: ["remark-preset-lint-ocular-d"]
+};
+```
 
 ## Contributing
 
@@ -43,6 +56,8 @@ Be it filing bugs, formulating enhancements, creating pull requests, or any othe
 
 ## License
 
+- [MIT](https://github.com/ocular-d/remark-preset-lint-ocular-d/blob/master/LICENSE.md "Link to license")
+
 ## Credits
 
-- https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio/blob/develop/README.md
+- [Arctic Ice Studio](https://github.com/arcticicestudio "Link to main GitHub page")

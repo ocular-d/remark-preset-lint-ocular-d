@@ -27,14 +27,6 @@ const definitionCase = require("remark-lint-definition-case");
  */
 const definitionSpacing = require("remark-lint-definition-spacing");
 /**
- * Enforce reference links to be placed at the bottom of the document.
- *
- * @since 0.1.0
- * @see {@link https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-final-definition final-definition}
- * @see {@link https://arcticicestudio.github.io/styleguide-markdown/rules/links.html#definition-placement Style Guide: "Links - Definition Placement"}
- */
-const finalDefinition = require("remark-lint-final-definition");
-/**
  * Disallow autolinks without a valid protocols.
  *
  * @since 0.1.0
@@ -108,7 +100,6 @@ module.exports = {
   plugins: [
     [definitionCase, ["error"]],
     [definitionSpacing, ["error"]],
-    [finalDefinition, ["error"]],
     [noAutoLinkWithoutProtocol, ["warn"]],
     [noDuplicateDefinitions, ["error"]],
     [noEmptyUrl, ["error"]],
