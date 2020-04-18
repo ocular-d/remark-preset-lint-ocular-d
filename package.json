@@ -1,7 +1,7 @@
 {
   "name": "remark-preset-lint-ocular-d",
   "title": "ocular-d remark-lint preset",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ocular-d Markdown Style Guide rules as remark-lint configuration preset.",
   "author": {
     "name": "ocular-d",
