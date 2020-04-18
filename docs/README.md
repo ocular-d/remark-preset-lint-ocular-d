@@ -22,9 +22,6 @@ npm install --save-dev remark-preset-lint-ocular-d
 ```
 
 Run `npm install` from within the project root to bootstrap the project and install the development- and runtime dependencies.
-Note that **this will not install the required package for the remark CLI** which is defined as
-[peer dependency](https://nodejs.org/en/blog/npm/peer-dependencies "Link to blog post about peer dependencies").
-It must be installed separately as described below.
 
 ## Usage
 
