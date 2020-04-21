@@ -25,6 +25,7 @@
 ## Table of Contents
 
 - [About the Project](#about)
+- [Install](#install)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -35,6 +36,14 @@
 Inspired and based on [Arctic Ice Studio Remark-Lint](https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio "Link to page on GitHub")
 
 It is used to showcase *Docs As Code* and *DocOps*.
+
+## Install
+
+This example uses NPM for installing the preset.
+
+```shell
+npm install -D remark-preset-lint-ocular-d
+```
 
 ## Usage
 
